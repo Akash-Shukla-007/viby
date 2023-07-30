@@ -11,9 +11,17 @@ function FeaturesCard({
 }) {
   return (
     <div className="feature_card_container">
-      <Logo size={60} color={"red"} />
-      <h1 style={{ fontSize: "2.25rem", fontWeight: "800" }}>{title}</h1>
-      <p>{description}</p>
+      <Logo size={60} color={"hsla(219, 87%, 55%, 1)"} />
+      <h1
+        style={{
+          fontWeight: "800",
+          marginTop: "15px",
+          color: "#141c4b",
+        }}
+      >
+        {title}
+      </h1>
+      <p style={{ fontWeight: "600", color: "grey" }}>{description}</p>
     </div>
   );
 }
